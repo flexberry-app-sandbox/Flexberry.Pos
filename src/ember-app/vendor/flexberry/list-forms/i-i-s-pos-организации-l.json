@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-pos-организации-e",
+  "editForm": "i-i-s-pos-организации-e",
+  "external": false,
+  "caption": "Организации",
+  "name": "IISPosОрганизацииL",
+  "className": "ОрганизацииL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-pos-организации",
+      "modelProjection": "ОрганизацииL"
+    }
+  ]
+}

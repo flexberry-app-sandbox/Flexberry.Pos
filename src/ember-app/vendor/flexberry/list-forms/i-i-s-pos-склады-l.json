@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-pos-склады-e",
+  "editForm": "i-i-s-pos-склады-e",
+  "external": false,
+  "caption": "Склады",
+  "name": "IISPosСкладыL",
+  "className": "СкладыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-pos-склады",
+      "modelProjection": "СкладыL"
+    }
+  ]
+}

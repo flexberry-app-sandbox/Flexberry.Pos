@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Отчет о зак",
+  "name": "IISPosОтчетОЗакE",
+  "className": "ОтчетОЗакE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-pos-отчет-о-зак",
+      "modelProjection": "ОтчетОЗакE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-pos-отчет-о-зак-e",
+  "editForm": "i-i-s-pos-отчет-о-зак-e",
+  "external": false,
+  "caption": "Отчет о зак",
+  "name": "IISPosОтчетОЗакL",
+  "className": "ОтчетОЗакL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-pos-отчет-о-зак",
+      "modelProjection": "ОтчетОЗакL"
+    }
+  ]
+}

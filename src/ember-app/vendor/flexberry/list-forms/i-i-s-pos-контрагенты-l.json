@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-pos-контрагенты-e",
+  "editForm": "i-i-s-pos-контрагенты-e",
+  "external": false,
+  "caption": "Контрагенты",
+  "name": "IISPosКонтрагентыL",
+  "className": "КонтрагентыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-pos-контрагенты",
+      "modelProjection": "КонтрагентыL"
+    }
+  ]
+}

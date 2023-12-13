@@ -1,0 +1,1 @@
+docker-compose -p pos-java up -d

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-pos-единицы-измер-e",
+  "editForm": "i-i-s-pos-единицы-измер-e",
+  "external": false,
+  "caption": "Единицы измер",
+  "name": "IISPosЕдиницыИзмерL",
+  "className": "ЕдиницыИзмерL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-pos-единицы-измер",
+      "modelProjection": "ЕдиницыИзмерL"
+    }
+  ]
+}

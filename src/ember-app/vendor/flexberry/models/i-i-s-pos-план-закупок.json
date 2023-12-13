@@ -1,0 +1,111 @@
+﻿{
+  "name": "IISPosПланЗакупок",
+  "modelName": "i-i-s-pos-план-закупок",
+  "className": "ПланЗакупок",
+  "nameSpace": "IIS.Pos",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "датаНачала",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "Now",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "контрагенты",
+      "relatedTo": "i-i-s-pos-контрагенты",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "организации",
+      "relatedTo": "i-i-s-pos-организации",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "склады",
+      "relatedTo": "i-i-s-pos-склады",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "план",
+      "relatedTo": "i-i-s-pos-план",
+      "inverse": "планЗакупок"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ПланЗакупокE",
+      "modelName": "i-i-s-pos-план-закупок",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "датаНачала",
+          "caption": "Дата начала",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ПланE",
+          "caption": "План",
+          "name": "план",
+          "relatedTo": "i-i-s-pos-план",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ПланЗакупокL",
+      "modelName": "i-i-s-pos-план-закупок",
+      "attrs": [
+        {
+          "name": "датаНачала",
+          "caption": "Дата начала",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
